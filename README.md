@@ -9,9 +9,9 @@ Using XGBoost regression and an ablation study framework, this project investiga
 - Core Finding: Optical data alone suffers from spectral saturation in high-density mangrove canopies. While GLCM textures significantly improve optical predictions over raw bands/indices, GEDI LiDAR structural features (specifically RH95) remain indispensable for accurate AGC estimation.
 
 # Tech Stack & Methods
-Machine Learning: XGBoost (XGBRegressor), Scikit-Learn (KFold Cross-Validation, GridSearchCV)
-Data Analysis & GIS: Pandas, NumPy, GeoPandasData Visualization: Matplotlib, SeabornEvaluation Metrics: Coefficient of Determination (R^2), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE)
+- Machine Learning: XGBoost (XGBRegressor), Scikit-Learn (KFold Cross-Validation, GridSearchCV)
+- Data Analysis & GIS: Pandas, NumPy, GeoPandasData Visualization: Matplotlib, SeabornEvaluation Metrics: Coefficient of Determination (R^2), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE)
 
 # Citation & References
-Study Area: Rinca Island, Komodo National Park, NTT, Indonesia.
-Data Sources: GEE (Sentinel-2) and GEDI Satellite (LiDAR)
+- Study Area: Rinca Island, Komodo National Park, NTT, Indonesia.
+- Data Sources: GEE (Sentinel-2) and GEDI Satellite (LiDAR)
